@@ -25,7 +25,6 @@ public class AddActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String memo = editText.getText().toString();
-                Log.e("", "eawfaef");
                 if (memo.length() > 0) {
                     Intent intent = new Intent();
                     intent.putExtra("memo", memo);

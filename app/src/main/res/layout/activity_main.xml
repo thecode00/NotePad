@@ -11,7 +11,7 @@
         android:fillViewport="true"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="7">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview"
@@ -19,12 +19,11 @@
             android:layout_height="match_parent"/>
 
     </ScrollView>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="?attr/actionModeShareDrawable"
-        android:layout_gravity="end|bottom"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Add Memo"
+        android:backgroundTint="#EBD3B0"/>
 </LinearLayout>
